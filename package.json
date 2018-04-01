@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/keychaintree",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a tree and returns all keychains for that tree",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/keyChainTree#readme",
+  "repository": "github:unctionjs/keyChainTree",
+  "bugs": "https://github.com/unctionjs/keyChainTree/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -60,5 +60,12 @@
     "nyc": "11.3.0",
     "tap": "11.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@unction/istype": "4.0.0",
+    "@unction/key": "8.0.0",
+    "@unction/keys": "10.0.0",
+    "@unction/mapvalues": "9.0.0",
+    "@unction/prepend": "5.0.0",
+    "@unction/reducevalues": "7.0.0"
+  }
 }
