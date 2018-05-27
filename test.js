@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
+/* eslint-disable no-magic-numbers */
 import keyChainTree from "./index"
 
 test("keyChainTree", () => {
