@@ -60,10 +60,12 @@
     "jest": "23.0.0"
   },
   "dependencies": {
+    "@unction/append": "4.0.0",
+    "@unction/get": "1.0.0",
+    "@unction/getmany": "1.0.0",
     "@unction/istype": "4.0.0",
-    "@unction/key": "8.0.0",
-    "@unction/keys": "10.0.0",
     "@unction/mapvalues": "9.0.0",
+    "@unction/mergeright": "5.0.0",
     "@unction/prepend": "5.0.0",
     "@unction/reducevalues": "7.0.0"
   }

@@ -1,10 +1,8 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
-import {test} from "tap"
-
 import keyChainTree from "./index"
 
-test(({same, end}) => {
-  same(
+test("keyChainTree", () => {
+  expect(
     keyChainTree({
       id: "1",
       attributes: {
@@ -22,7 +20,8 @@ test(({same, end}) => {
           },
         },
       ],
-    }),
+    })
+  ).toEqual(
     [
       ["id"],
       ["attributes", "name"],
@@ -31,6 +30,4 @@ test(({same, end}) => {
       ["included"],
     ]
   )
-
-  end()
 })
