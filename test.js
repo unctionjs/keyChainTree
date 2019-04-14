@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import keyChainTree from "./index"
+import keyChainTree from "./index";
 
 test("keyChainTree", () => {
   expect(
@@ -29,5 +29,5 @@ test("keyChainTree", () => {
       ["meta", "version"],
       ["included"],
     ]
-  )
-})
+  );
+});
