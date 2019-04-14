@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/keyChainTree#readme",
   "repository": "github:unctionjs/keyChainTree",
   "bugs": "https://github.com/unctionjs/keyChainTree/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "files": [
     "index.js",
     "main.js",
@@ -75,5 +75,5 @@
     "@unction/reducevalues": "7.0.0"
   },
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }
