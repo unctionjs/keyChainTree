@@ -65,14 +65,14 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/append": "6.1.0",
-    "@unction/get": "2.1.0",
-    "@unction/getmany": "2.1.0",
-    "@unction/istype": "6.1.0",
-    "@unction/mapvalues": "10.1.0",
-    "@unction/mergeright": "7.1.0",
-    "@unction/prepend": "6.1.0",
-    "@unction/reducevalues": "8.1.0",
+    "@unction/append": "6.2.0",
+    "@unction/get": "2.2.0",
+    "@unction/getmany": "2.2.0",
+    "@unction/istype": "6.2.0",
+    "@unction/mapvalues": "10.2.0",
+    "@unction/mergeright": "7.2.0",
+    "@unction/prepend": "6.2.0",
+    "@unction/reducevalues": "8.2.0",
     "core-js": "3.0.1"
   },
   "module": "index.js",
