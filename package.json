@@ -65,14 +65,14 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/append": "6.5.0",
-    "@unction/get": "2.5.0",
-    "@unction/getmany": "2.5.0",
-    "@unction/istype": "6.5.0",
-    "@unction/mapvalues": "10.5.0",
-    "@unction/mergeright": "7.5.0",
-    "@unction/prepend": "6.5.0",
-    "@unction/reducevalues": "8.5.0"
+    "@unction/append": "6.6.0",
+    "@unction/get": "2.6.0",
+    "@unction/getmany": "2.6.0",
+    "@unction/istype": "6.6.0",
+    "@unction/mapvalues": "10.6.0",
+    "@unction/mergeright": "7.6.0",
+    "@unction/prepend": "6.6.0",
+    "@unction/reducevalues": "8.6.0"
   },
   "module": "module.js",
   "browser": "browser.js"
