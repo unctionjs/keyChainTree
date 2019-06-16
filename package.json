@@ -72,8 +72,7 @@
     "@unction/mapvalues": "10.5.0",
     "@unction/mergeright": "7.5.0",
     "@unction/prepend": "6.5.0",
-    "@unction/reducevalues": "8.5.0",
-    "core-js": "3.0.1"
+    "@unction/reducevalues": "8.5.0"
   },
   "module": "module.js",
   "browser": "browser.js"
