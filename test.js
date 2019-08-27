@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import keyChainTree from "./index";
+import keyChainTree from "./";
 
 test("keyChainTree", () => {
   expect(
