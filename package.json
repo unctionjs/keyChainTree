@@ -19,7 +19,7 @@
   "bugs": "https://github.com/unctionjs/keyChainTree/issues",
   "main": "main.js",
   "files": [
-    "index.js",
+    "index.ts",
     "main.js",
     "main.js.map",
     "browser.js",
@@ -77,5 +77,6 @@
     "@unction/reducevalues": "8.6.0"
   },
   "module": "module.js",
-  "browser": "browser.js"
+  "browser": "browser.js",
+  "types": "types.d.ts"
 }
