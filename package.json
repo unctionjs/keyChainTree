@@ -1,6 +1,6 @@
 {
   "name": "@unction/keychaintree",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Takes a tree and returns all keychains for that tree",
   "keywords": [
     "unction",
