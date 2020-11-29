@@ -6,12 +6,12 @@ import prepend from "@unction/prepend";
 import append from "@unction/append";
 import getMany from "@unction/getmany";
 import mergeRight from "@unction/mergeright";
-import {RecordType} from "./types";
+
 import {KeyChainType} from "./types";
 
-export default function keyChainTree<A, B> (tree: RecordType<A, B>): Array<KeyChainType<A>> {
+export default function keyChainTree<A, B> (tree: Record<string | number | symbol, B> | Map<A, B>): Array<KeyChainType<A>> {
   return reduceValues(
-    (accumulated: RecordType<A, B>) => (key: A) => {
+    (accumulated: Record<string | number | symbol, B> | Map<A, B>) => (key: A) => {
       const value = get(key)(tree);
 
       if (isType("Object")(value) || isType("Map")(value)) {

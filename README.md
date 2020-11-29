@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> RecordType<A, B> => Array<KeyChainType<A>>
+> Record<string | number | symbol, B> | Map<A, B> => Array<KeyChainType<A>>
 
 Takes a tree and returns all keychains for that tree. Note, it only follows record types (types with keys).
 
